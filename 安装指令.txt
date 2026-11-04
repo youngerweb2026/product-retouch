@@ -1,0 +1,8 @@
+请使用 skill-installer 帮我安装不二何的「产品精修」Skill，标识为 product-retouch：
+https://github.com/youngerweb2026/product-retouch/tree/main/product-retouch
+
+请先读取上述目录的 SKILL.md，识别当前 Agent 和操作系统，优先使用原生 Skill 安装机制，将完整 product-retouch 目录安装到当前 Agent 实际加载的个人 Skills 目录；原样保留 SKILL.md、agents/openai.yaml 和 references/retouch-guide.md，不要只复制一个文件，也不要改写技能规则。
+
+如果已有同名 Skill，先逐文件比较：内容一致则跳过；内容不同则保留本地版本并说明差异，不直接覆盖。安装后检查全部文件，告诉我实际安装路径、调用方式，以及是否需要刷新或重新加载。
+
+本次只安装，不处理图片、不调用生图、不安装无关插件。若当前环境不支持联网、文件写入、Skills 或内置 ImageGen，请准确说明实际限制，不要声称已经安装或能够出图。
